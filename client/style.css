@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1200px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+#message-container {
+  border: 1px solid black;
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+#message-container div {
+  background-color: #D0D3D4;
+  padding: 5px;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: #979A9A;
+  padding: 5px;
+}
+
+input[type="text"] {
+  border: 1px solid black;
+  width: 80%;
+  height: 36px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+button {
+  border: 1px solid black;
+  width: 50px;
+  height: 36px;
+}
+
+label {
+  font-size: 26px;
+}
+
+.form-group {
+  margin-top: 20px;
+} 
